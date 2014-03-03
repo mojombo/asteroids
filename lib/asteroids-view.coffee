@@ -3,11 +3,10 @@
 module.exports =
 class AsteroidsView extends View
   @content: ->
-    @div class: 'asteroids overlay from-top', =>
-      @div "The Asteroids package is Alive! It's ALIVE!", class: "message"
+    @div class: 'asteroids overlay from-top'
 
   initialize: (serializeState) ->
-    atom.workspaceView.command "asteroids:toggle", => @toggle()
+    atom.workspaceView.command "asteroids:blastoff", => @blastoff()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
@@ -16,8 +15,7 @@ class AsteroidsView extends View
   destroy: ->
     @detach()
 
-  toggle: ->
-    console.log "AsteroidsView was toggled!"
+  blastoff: ->
     if @hasParent()
       @detach()
     else
