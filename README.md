@@ -8,7 +8,8 @@ same right in your editor!
 All credit for the Asteroids game code go to Rootof Creations HB <rootof.com>.
 You can find their original code at https://github.com/erkie/erkie.github.com.
 
-To play, select `Packages->Asteroids->Play` from the menu bar.
+To play, select `Packages->Asteroids->Play` from the menu bar. Use arrow keys
+to move around and spacebar to fire.
 
 To return your editor window to normal, select `Window: Reload` from the
 command pallette.
