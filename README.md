@@ -1,5 +1,6 @@
-# asteroids package
+# Asteroids for Atom
 
-A short description of your package.
-
-![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Remember that awesome hack from a few years ago that allowed you to spawn an
+Asteroids shooter on any web page and then blast away at all the HTML DOM
+elements? Well, since Atom is built with web technologies, now you can do the
+same right in your editor!

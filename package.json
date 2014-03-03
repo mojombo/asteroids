@@ -5,7 +5,7 @@
   "private": true,
   "description": "Destroy your editor, Asteroids style!",
   "activationEvents": ["asteroids:play"],
-  "repository": "https://github.com/atom/asteroids",
+  "repository": "https://github.com/mojombo/asteroids",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

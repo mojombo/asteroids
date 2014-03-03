@@ -6,7 +6,7 @@ class AsteroidsView extends View
     @div class: 'asteroids overlay from-top'
 
   initialize: (serializeState) ->
-    atom.workspaceView.command "asteroids:blastoff", => @blastoff()
+    atom.workspaceView.command "asteroids:play", => @play()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
