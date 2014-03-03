@@ -1,0 +1,15 @@
+{
+  "name": "asteroids",
+  "main": "./lib/asteroids",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": ["asteroids:toggle"],
+  "repository": "https://github.com/atom/asteroids",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable asteroids': 'asteroids:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'asteroids'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'asteroids:toggle' }
+      ]
+    ]
+  }
+]
