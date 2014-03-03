@@ -1,7 +1,7 @@
 {
   "name": "asteroids",
   "main": "./lib/asteroids",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "description": "Destroy your editor, Asteroids style!",
   "activationEvents": ["asteroids:play"],
