@@ -5,6 +5,9 @@ Asteroids shooter on any web page and then blast away at all the HTML DOM
 elements? Well, since Atom is built with web technologies, now you can do the
 same right in your editor!
 
+All credit for the Asteroids game code go to Rootof Creations HB <rootof.com>.
+You can find their original code at https://github.com/erkie/erkie.github.com.
+
 To play, select `Packages->Asteroids->Play` from the menu bar.
 
 To return your editor window to normal, select `Window: Reload` from the
