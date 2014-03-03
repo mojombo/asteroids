@@ -3,7 +3,7 @@
 module.exports =
 class AsteroidsView extends View
   @content: ->
-    @div class: 'asteroids overlay from-top'
+    @div class: 'asteroids'
 
   initialize: (serializeState) ->
     atom.workspaceView.command "asteroids:play", => @play()
