@@ -15,7 +15,7 @@ class AsteroidsView extends View
   destroy: ->
     @detach()
 
-  blastoff: ->
+  play: ->
     if @hasParent()
       @detach()
     else
